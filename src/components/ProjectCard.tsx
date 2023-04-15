@@ -45,7 +45,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
           <img
             src={img}
             loading="lazy"
-            className="w-full max-w-md lg:max-w-full hover-scale"
+            className="w-full max-w-md lg:max-w-full hover-scale hover:scale-105"
           />
         </a>
       </div>

@@ -20,7 +20,7 @@ b {
 }
 
 .hover-scale {
-  @apply hover:scale-105 duration-200 lg:border-4 lg:border-transparent lg:hover:border-black rounded-3xl;
+  @apply lg:hover:scale-105 duration-200 lg:border-4 lg:border-transparent lg:hover:border-black lg:rounded-3xl;
 }
 
 .shadow-all {
