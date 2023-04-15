@@ -19,7 +19,7 @@ const useScrollReveal = (
 
     if (ref.current) {
       sr.reveal(ref.current, {
-        duration: options.duration || 2000,
+        duration: options.duration || 1500,
         origin: options.origin || "left",
         distance: options.distance || "100px",
         delay: options.delay || 300,
