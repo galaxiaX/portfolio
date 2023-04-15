@@ -25,7 +25,7 @@ const About = () => {
             <h2 className="text-3xl text-center font-bold w-full mb-4 lg:mb-8 text-white hover:scale-105 duration-200">
               My Background
             </h2>
-            <p className="text-white font-medium text-lg indent-8 lg:indent-16 leading-8 hover:scale-105 duration-200">
+            <p className="text-white font-medium text-lg indent-8 lg:indent-16 leading-8 lg:hover:scale-105 duration-200">
               Hello, I'm a self-taught web developer on a mission to turn my
               passion into a profession. I've been honing my skills in the
               <b> MERN </b>
