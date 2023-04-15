@@ -1,0 +1,46 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  font-family: Montserrat, sans-serif;
+  -webkit-tap-highlight-color: transparent;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+b {
+  text-decoration: underline;
+}
+
+.hover-scale {
+  @apply hover:scale-105 duration-200 lg:border-4 lg:border-transparent lg:hover:border-black rounded-3xl;
+}
+
+.shadow-all {
+  box-shadow: 0 0 10px rgb(130, 130, 130);
+}
+
+.offset {
+  box-shadow: 0.25em 0.25em 0 0 black, inset 0.25em 0.25em 0 0 black;
+}
+.offset:hover,
+.offset:focus {
+  box-shadow: 0 0 0 0 black, inset 6em 3.5em 0 0 black;
+}
+
+.raise:hover,
+.raise:focus {
+  box-shadow: 0 0.5em 0.5em -0.4em rgb(50, 50, 50);
+  transform: translateY(-0.5em);
+}
+
+.slide:hover {
+  box-shadow: inset 160px 0 0 0 white;
+}
