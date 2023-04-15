@@ -9,8 +9,8 @@ const MessageForm = () => {
   const form = useRef<HTMLFormElement>(null);
 
   const serviceId = import.meta.env.VITE_SERVICE_ID;
-  const templateId = import.meta.env.VITE_SERVICE_ID;
-  const publicId = import.meta.env.VITE_SERVICE_ID;
+  const templateId = import.meta.env.VITE_TEMPLATE_ID;
+  const publicId = import.meta.env.VITE_PUBLIC_ID;
 
   const labelClassName = "block text-white font-bold mb-2";
   const inputClassName =
