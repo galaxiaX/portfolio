@@ -33,7 +33,7 @@ const Project = () => {
       link: "https://liveweather-next.vercel.app",
       srcCode: "https://github.com/galaxiaX/next-weather-app",
       stack: ["Next.js", "SASS"],
-      description: `"Weather" is a Next.js and SASS based portfolio project 
+      description: `"Weather" is a Next.js and SASS based project 
       that uses the OpenWeather API to display current, hourly, and daily weather data 
       for a city entered by the user. The interface is clean and simple, with easy-to-read 
       data including temperature, humidity, and wind speed.`,
