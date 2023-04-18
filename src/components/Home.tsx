@@ -10,7 +10,7 @@ const Home = () => {
 
   useScrollReveal(revealLeft);
   useScrollReveal(revealRight, { origin: "right", delay: 1000 });
-  useScrollReveal(revealBottom, { origin: "bottom", delay: 4000 });
+  useScrollReveal(revealBottom, { origin: "bottom", delay: 5000 });
 
   return (
     <header
