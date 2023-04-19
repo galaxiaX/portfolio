@@ -40,6 +40,13 @@ const About = () => {
               collaborating on projects. I'm currently seeking a web development
               job where I can continue to grow and develop my skills further.
             </p>
+            <a
+              href="https://drive.google.com/file/d/1Bq9dJHYf3GsnVVZZeQhYX_j-e2Q3MTxo/view?usp=sharing"
+              target="_blank"
+              className="slide inline-flex float-right lg:float-left mt-8 border-4 border-white duration-300 text-white hover:text-[#02aeaf] font-bold py-2 px-6"
+            >
+              Resume
+            </a>
           </div>
           <div ref={revealRight} className="flex flex-col items-center">
             <h2 className="text-3xl font-bold w-full mb-8 text-white text-center hover:scale-105 duration-200">
