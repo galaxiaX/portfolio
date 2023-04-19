@@ -43,7 +43,7 @@ const About = () => {
             <a
               href="https://drive.google.com/file/d/1Bq9dJHYf3GsnVVZZeQhYX_j-e2Q3MTxo/view?usp=sharing"
               target="_blank"
-              className="slide inline-flex float-right lg:float-left mt-8 border-4 border-white duration-300 text-white hover:text-[#02aeaf] font-bold py-2 px-6"
+              className="slide inline-flex mt-8 border-4 border-white duration-300 text-white hover:text-[#02aeaf] font-bold py-2 px-6"
             >
               Resume
             </a>
