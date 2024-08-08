@@ -41,7 +41,7 @@ const About = () => {
               job where I can continue to grow and develop my skills further.
             </p>
             <a
-              href="https://drive.google.com/file/d/1GnmF5DOhUKlsptjHheager38s2Njia6v/view?usp=sharing"
+              href="https://drive.google.com/file/d/1Xg8N8jEvbsBrd4LiYTipvY0wbfcPSoQw/view?usp=sharing"
               target="_blank"
               className="slide inline-flex mt-8 border-4 border-white duration-300 text-white hover:text-[#02aeaf] font-bold py-2 px-6"
             >
